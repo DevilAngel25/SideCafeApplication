@@ -1,0 +1,87 @@
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\SidewalkCafe.exe
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\SidewalkCafe.pdb
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\resources.pri
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\AppxManifest.xml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\SidewalkCafe.build.appxrecipe
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\Bing.Maps.winmd
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\bin\x86\Debug\Bing.Maps.xml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.g.i.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.g.i.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\XamlTypeInfo.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.xaml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.xaml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.exe
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.pdb
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.csproj.GenerateResource.Cache
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\priconfig.xml.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\layout.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\resources.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\pri.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\priconfig.xml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\layout.resfiles
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\resources.resfiles
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\pri.resfiles
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\LanguageQualifiers.txt
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\ProjectArchitectures.txt
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.g.i.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.xaml
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\InfoBox.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\InfoBox.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\XamlTypeInfo.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.xaml
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.xaml
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.xaml
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\InfoBox.xaml
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.exe
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.pdb
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.csproj.GenerateResource.Cache
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\priconfig.xml.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\layout.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\resources.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\pri.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\priconfig.xml
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\layout.resfiles
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\resources.resfiles
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\pri.resfiles
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\LanguageQualifiers.txt
+\\ctstudent2\studentusers\100215286\Desktop\SidewalkCafe\SidewalkCafe\obj\x86\Debug\ProjectArchitectures.txt
+C:\Temp\SidewalkCafe.exe
+C:\Temp\SidewalkCafe.pdb
+C:\Temp\resources.pri
+C:\Temp\AppxManifest.xml
+C:\Temp\SidewalkCafe.build.appxrecipe
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\InfoBox.g.i.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\InfoBox.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\XamlTypeInfo.g.cs
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\App.xaml
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\Common\StandardStyles.xaml
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\BingMap.xaml
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\InfoBox.xaml
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.exe
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.pdb
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\SidewalkCafe.csproj.GenerateResource.Cache
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\priconfig.xml.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\layout.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\resources.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\pri.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\priconfig.xml
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\layout.resfiles
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\resources.resfiles
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\pri.resfiles
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\LanguageQualifiers.txt
+\\ctstudent2\studentusers\100215286\Desktop\100215286_AppDev_Ass_2_Part2\Source\SidewalkCafe\SidewalkCafe\obj\x86\Debug\ProjectArchitectures.txt

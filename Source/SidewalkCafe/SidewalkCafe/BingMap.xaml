@@ -1,0 +1,141 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SidewalkCafe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Bing.Maps"
+    x:Class="SidewalkCafe.MainPage"
+    mc:Ignorable="d">
+    
+    <Page.Resources>
+        
+        <Style x:Key="AddAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="AddAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Add New Cafe"/>
+            <Setter Property="Content" Value="&#xE109;"/>
+        </Style>
+        
+        <Style x:Key="ZoomInAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="ZoomInAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Zoom In" />
+            <Setter Property="Content" Value="&#xE11A;"/>
+        </Style>
+
+        <Style x:Key="ZoomOutAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="ZoomOutAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Zoom Out" />
+            <Setter Property="Content" Value="&#xE11A;"/>
+        </Style>
+        
+        <Style x:Key="MapTypeAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="MapTypeAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Map Type" />
+            <Setter Property="Content" Value="&#xE111;"/>
+        </Style>
+        
+        <Style x:Key="TrafficViewAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="MapTypeAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Traffic View" />
+            <Setter Property="Content" Value="&#xE111;"/>
+        </Style>
+        
+        <Style x:Key="TextBoxTextStyle" TargetType="TextBox">
+            <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"/>
+            <Setter Property="FontSize" Value="{StaticResource ControlContentThemeFontSize}"/>
+            <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Typography.StylisticSet20" Value="True"/>
+            <Setter Property="Typography.DiscretionaryLigatures" Value="True"/>
+            <Setter Property="Typography.CaseSensitiveForms" Value="True"/>
+            <Setter Property="FontSize" Value="26.667"/>
+            <Setter Property="FontWeight" Value="Light"/>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <TranslateTransform X="-1" Y="6"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <DataTemplate x:Key="PushpinTemplate">
+            <Maps:Pushpin IsTapEnabled="True" Background="#FFB6DE2E" Tapped="PushpinTapped">
+                <Maps:MapLayer.Position>
+                    <Maps:Location Latitude="{Binding Latitude}" Longitude="{Binding Longitude}" />
+                </Maps:MapLayer.Position>
+            </Maps:Pushpin>
+        </DataTemplate>
+        
+    </Page.Resources>
+    
+    
+    <Grid Background="Black">
+        <Maps:Map x:Name="bingMap" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="640" Width="1024" Credentials="{StaticResource BingCredentials}" ShowNavigationBar="True" Tapped="MapTapped" Margin="167,63,175,65">
+            <Maps:MapItemsControl ItemTemplate="{StaticResource PushpinTemplate}" ItemsSource="{Binding Cafes}"></Maps:MapItemsControl>
+        </Maps:Map>
+
+        <Popup x:Name="flyoutPopup">
+            <Border x:Name="flyoutBorder" BorderThickness="2,0,0,0">
+                <Border.Transitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition FromHorizontalOffset="400" />
+                    </TransitionCollection>
+                </Border.Transitions>
+                <Grid Height="500">
+                    <!-- Root grid definition -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <!-- Header area for panel -->
+                    <Grid Grid.Row="0" x:Name="flyoutHeaderGrid">
+                        <Grid Margin="40,32,17,13" HorizontalAlignment="Stretch">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Click="flyoutBackButton_Click" Margin="0,3,0,0" Grid.Column="0" Style="{StaticResource BackButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="flyoutTitle" Margin="10,0,0,0" Grid.Column="1" Grid.ColumnSpan="2"  FontFamily="Segoe UI" FontWeight="SemiLight" FontSize="24.6667" Text="Title" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+                    <!-- Panel Content -->
+                    <Grid x:Name="flyoutContentPanel" Grid.Row="1" Margin="10,10,47,0" VerticalAlignment="Top" Height="380" >
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="NoWrap" Text="Name:" Style="{StaticResource SubheaderTextStyle}" FontSize="20" Width="140" VerticalAlignment="Top" Height="40"/>
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="txtName" Margin="160,10,0,0" Text="Enter Name Here" Height="40" Width="425" Style="{StaticResource TextBoxTextStyle}" FontSize="20" />
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="NoWrap" Text="Trade Name:" Style="{StaticResource SubheaderTextStyle}" FontSize="20" Width="140" VerticalAlignment="Top" Height="40"/>
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="txtTradeName" Margin="160,60,0,0" Text="Enter Trade Name Here" Height="40" Width="425" Style="{StaticResource TextBoxTextStyle}" FontSize="20" />
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,110,0,0" TextWrapping="NoWrap" Text="Street Address:" Style="{StaticResource SubheaderTextStyle}" FontSize="20" Width="140" VerticalAlignment="Top" Height="40"/>
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="txtStreetAddress" Margin="160,110,0,0" Text="Enter The Street Address" Height="80" Width="425" Style="{StaticResource TextBoxTextStyle}" FontSize="20" />
+                        
+                        <TextBlock HorizontalAlignment="Left" Margin="10,200,0,136" TextWrapping="NoWrap" Text="Phone Number:" Style="{StaticResource SubheaderTextStyle}" FontSize="20" Width="140"/>
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="txtPhoneNumber" Margin="160,200,0,0" Text="Enter The Phone Number" Height="40" Width="425" Style="{StaticResource TextBoxTextStyle}" FontSize="20" />
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,250,0,0" TextWrapping="NoWrap" Text="Latitude:" Style="{StaticResource SubheaderTextStyle}" FontSize="20" Width="140" VerticalAlignment="Top" Height="40"/>
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="txtLatitude" Margin="160,250,0,0" Text="Enter The Latitude" Height="40" Width="425" Style="{StaticResource TextBoxTextStyle}" FontSize="20" />
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,300,0,0" TextWrapping="NoWrap" Text="Longitude:" Style="{StaticResource SubheaderTextStyle}" FontSize="20" Width="140" VerticalAlignment="Top" Height="40"/>
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="txtLongitude" Margin="160,300,0,0" Text="Enter The Longitude" Height="40" Width="425" Style="{StaticResource TextBoxTextStyle}" FontSize="20" />
+
+                        <Button Content="Save to Database" HorizontalAlignment="Left" Margin="10,350,0,0" VerticalAlignment="Top"  Style="{StaticResource TextButtonStyle}" FontSize="20" Click="btnsave_Click" />
+                    </Grid>
+                </Grid>
+            </Border>
+        </Popup>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <AppBar Name="bottomAppBar" Padding="10,0,10,0" Background="DarkBlue">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="btnAddCafe" Style="{StaticResource AddAppBarButtonStyle}" Click="btnAddCafe_Click" />
+                    <Button x:Name="btnZoomIn" Style="{StaticResource ZoomInAppBarButtonStyle}" Click="btnZoomIn_Click"/>
+                    <Button x:Name="btnZoomOut" Style="{StaticResource ZoomOutAppBarButtonStyle}" Click="btnZoomOut_Click"/>
+                    <Button x:Name="btnChangeMapType" Style="{StaticResource MapTypeAppBarButtonStyle}" Click="btnChangeMapType_Click" />
+                    <Button x:Name="btnTrafficView" Style="{StaticResource TrafficViewAppBarButtonStyle}" Click="btnTrafficView_Click" />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>

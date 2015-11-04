@@ -1,0 +1,42 @@
+﻿<UserControl
+    x:Class="SidewalkCafe.InfoBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SidewalkCafe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="216"
+    d:DesignWidth="200" Margin="0,-216,0,0">
+    
+    <Grid x:Name="PushpinInfo">
+        <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="216" VerticalAlignment="Top" Width="200" Background="MediumBlue"/>
+        <Rectangle Fill="MediumBlue" HorizontalAlignment="Left" Height="2" Margin="0,214,0,0" Stroke="White" VerticalAlignment="Top" Width="16" RenderTransformOrigin="1,0"/>
+        <Rectangle Fill="MediumBlue" HorizontalAlignment="Left" Height="16" Margin="0,200,0,0" Stroke="White" VerticalAlignment="Top" Width="2" RenderTransformOrigin="1,0"/>
+        <Rectangle Fill="MediumBlue" HorizontalAlignment="Left" Height="2" Margin="-2.922,214.313,0,-0.313" Stroke="White" VerticalAlignment="Top" Width="16" RenderTransformOrigin="1,0" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="45"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+            <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="10" FontStyle="Italic" Text="Name :" />
+        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Margin="90,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="100" FontSize="10" Height="32" RenderTransformOrigin="0.5,0.5"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="10" FontStyle="Italic" Text="Trade Name :" />
+        <TextBlock x:Name="txtTradeName" HorizontalAlignment="Left" Margin="90,47,0,0" TextWrapping="Wrap" Text="TradeName" VerticalAlignment="Top" Width="100" FontSize="10" Height="32" RenderTransformOrigin="0.5,0.5"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="10" FontStyle="Italic" Text="Street Address :" />
+        <TextBlock x:Name="txtStreetAddress" HorizontalAlignment="Left" Margin="90,84,0,0" TextWrapping="Wrap" Text="StreetAddress" VerticalAlignment="Top" Width="100" FontSize="10" Height="32" RenderTransformOrigin="0.5,0.5"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="10,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="10" FontStyle="Italic" Text="Phone Number :" />
+        <TextBlock x:Name="txtPhoneNumber" HorizontalAlignment="Left" Margin="90,121,0,0" TextWrapping="Wrap" Text="PhoneNumber" VerticalAlignment="Top" Width="100" FontSize="10" Height="16" RenderTransformOrigin="0.5,0.5"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="10,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="10" FontStyle="Italic" Text="Longitude :" />
+        <TextBlock x:Name="txtLong" HorizontalAlignment="Left" Margin="90,163,0,0" TextWrapping="Wrap" Text="Long" VerticalAlignment="Top" Width="100" FontSize="10" Height="16" />
+        
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="10,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="10" FontStyle="Italic" Text="Latitude :"/>
+        <TextBlock x:Name="txtLat" HorizontalAlignment="Left" Margin="90,142,0,0" TextWrapping="Wrap" Text="Lat" VerticalAlignment="Top" Width="100" FontSize="10" Height="16" RenderTransformOrigin="0.5,0.5"/>
+        
+        <Button x:ConnectionId='1' Content="Close" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" FontSize="10" BorderThickness="1"                       />
+    </Grid>
+</UserControl>
+

@@ -1,0 +1,27 @@
+C:\Temp\SidewalkCafe.exe
+C:\Temp\SidewalkCafe.pdb
+C:\Temp\resources.pri
+C:\Temp\AppxManifest.xml
+C:\Temp\SidewalkCafe.build.appxrecipe
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\App.g.i.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\App.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\Common\StandardStyles.g.i.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\Common\StandardStyles.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\MainPage.g.i.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\MainPage.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\XamlTypeInfo.g.cs
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\App.xaml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\Common\StandardStyles.xaml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\MainPage.xaml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\SidewalkCafe.exe
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\SidewalkCafe.pdb
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\priconfig.xml.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\layout.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\resources.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\pri.resfiles.intermediate
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\priconfig.xml
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\layout.resfiles
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\resources.resfiles
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\pri.resfiles
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\LanguageQualifiers.txt
+\\ctstudent2\studentusers\100215286\Documents\Visual Studio 2012\Projects\SidewalkCafe\SidewalkCafe\obj\Debug\ProjectArchitectures.txt
